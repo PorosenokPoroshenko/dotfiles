@@ -1,0 +1,35 @@
+{
+
+    "jedi.enable": true,
+    "jedi.startupMessage": false,
+    "jedi.markupKindPreferred": "plaintext",
+    "jedi.trace.server": "verbose",
+    "jedi.jediSettings.autoImportModules": ["pandas"],
+    "jedi.executable.command": "/home/yaroslav/anaconda3/bin/jedi-language-server",
+    "jedi.executable.args": [],
+    "jedi.completion.disableSnippets": false,
+    "jedi.completion.resolveEagerly": false,
+    "jedi.diagnostics.enable": true,
+    "jedi.diagnostics.didOpen": true,
+    "jedi.diagnostics.didChange": true,
+    "jedi.diagnostics.didSave": false,
+    "jedi.workspace.extraPaths": [],
+    "clangd.path": "/home/yaroslav/.config/coc/extensions/coc-clangd-data/install/11.0.0/clangd_11.0.0/bin/clangd",
+    "diagnostic-languageserver.formatFiletypes": {
+  "python": ["black", "isort", "docformatter"]
+},
+"diagnostic-languageserver.formatters": {
+  "black": {
+    "command": "black",
+    "args": ["-q", "-"]
+  },
+  "isort": {
+    "command": "isort",
+    "args": ["-q", "-"]
+  },
+  "docformatter": {
+    "command": "docformatter",
+    "args": ["-"]
+  }
+}
+}
